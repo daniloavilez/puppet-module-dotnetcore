@@ -42,7 +42,7 @@
 #
 # Copyright 2019 Your name here, unless otherwise noted.
 #
-class netcore {
+class netcore inherits netcore::params {
     include netcore::install
 
 }
